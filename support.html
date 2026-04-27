@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>支持 & 联系 | SiteNote</title>
+<meta name="description" content="SiteNote 用户支持、常见问题、Beta 测试、联系开发者。">
+<link rel="icon" type="image/png" href="images/icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="images/icon.png" alt="SiteNote">
+      <span>SiteNote</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html#features">功能</a>
+      <a href="index.html#trust">隐私</a>
+      <a href="support.html">支持</a>
+      <a href="privacy.html">隐私政策</a>
+    </nav>
+  </div>
+</header>
+
+<main class="doc">
+  <div class="container-narrow">
+    <h1>支持 & 联系</h1>
+    <p class="updated">SiteNote 由独立工程师开发。每条反馈都会看到。</p>
+
+    <div class="contact-block">
+      <h3>📧 直接联系</h3>
+      <p>有 bug、功能建议、合作意向，发邮件给我：</p>
+      <p class="email"><a href="mailto:banruostudio@gmail.com">banruostudio@gmail.com</a></p>
+      <p style="font-size: 13px; color: var(--dim); margin-top: 12px;">通常 24-48 小时内回复。请附上你的 iOS 版本和 App 版本（在设置 → 数据与关于里看）。</p>
+    </div>
+
+    <h2>常见问题</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">SiteNote 是免费的吗？</div>
+      <div class="faq-a">v1 完全免费。AI 功能需要你提供自己的 OpenAI API Key（你在 OpenAI 那边付费），App 本身不收订阅、不卖数据、不发广告。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">没有 OpenAI Key 能用吗？</div>
+      <div class="faq-a">完全可以。录音、转文字、提醒、PDF 导出全部不需要 OpenAI。AI 是加成，不是必需。也可启用 Apple Intelligence 用本地模型替代。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">数据会上传到你们的服务器吗？</div>
+      <div class="faq-a">不会。SiteNote 没有自己的服务器。只有当你主动开启 OpenAI 集成时，转写文本会发送到 OpenAI（你自己的账户）。详见<a href="privacy.html">隐私政策</a>。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">支持哪些 iPhone / iOS 版本？</div>
+      <div class="faq-a">iOS 17 及以上。iPhone 11 及更新机型推荐（A13 芯片以上跑 AI 顺畅）。iPhone 17 Pro Max 体验最佳。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">怎么导出 PDF？</div>
+      <div class="faq-a">日志 tab → 选某一天 → 底部"生成今日简报"按钮。PDF 自动包含人员清单、机械、工程量、照片缩略图，可直接 AirDrop 给业主或邮件发出。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">怎么备份数据？</div>
+      <div class="faq-a">设置 → 报告与导出 → "导出全部数据为 ZIP"。zip 包含速记数据库、录音、照片、设置。建议清空数据前先导一份。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">换手机怎么办？</div>
+      <div class="faq-a">v1 暂不支持自动 iCloud 同步。可以用上一条的 ZIP 备份手动迁移：导出 → 邮件给自己 → 新手机装 App → 导入（v1.1 上线）。多设备实时同步是 v2 计划。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">我能加入 Beta 测试吗？</div>
+      <div class="faq-a">v1 上架前最后一周会开放 TestFlight 外部测试。<a href="mailto:banruostudio@gmail.com?subject=SiteNote%20TestFlight%20申请">发邮件</a>说明你的工程角色（PM / 工程师 / 工头）和工地类型，我会发邀请链接。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">隐患提醒为什么响这么多次？</div>
+      <div class="faq-a">这是设计。隐患不及时处理可能死人。SiteNote 普通速记 7 天内每天早上响一次，"隐患"标记的速记 10 天内每天早晚双响。完成或撤销后立即停止。如果太烦，请认真处理那条隐患。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">AI 误判了把我的提醒变成日志怎么办？</div>
+      <div class="faq-a">不会发生。AI 抽取出 LogEntry 后只显示"建议"banner，必须你点"标为施工日志"才会改 deadline 取消提醒。点"保留提醒"就当 AI 没说过。这是产品红线，不可绕过。</div>
+    </div>
+
+    <h2>反馈渠道优先级</h2>
+    <p>请按下面顺序选合适的渠道：</p>
+    <ol>
+      <li><strong>App 内反馈按钮</strong>（设置 → 反馈与建议）— 自动附带版本信息，最方便</li>
+      <li><strong>邮件</strong>到 <a href="mailto:banruostudio@gmail.com">banruostudio@gmail.com</a> — 适合详细说明的 bug</li>
+      <li><strong>App Store 评论</strong> — 公开反馈，会影响评分（但开发者无法在 App Store 直接回复）</li>
+      <li><strong>TestFlight 反馈</strong>（仅限测试用户）— 截图自动附带</li>
+    </ol>
+
+    <h2>开发者</h2>
+    <p>SiteNote 是独立工程师 Banruo Yang 的项目。专注做一件事：<strong>把工地工程师从"打字记笔记"里解放出来</strong>。</p>
+    <p>不接受 VC 投资、不计划商业化扩张。一年发版 2-3 次，每次只加用户真用上的功能。</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>© 2026 Banruo Yang. SiteNote · 工地速记</div>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="privacy.html">隐私政策</a>
+      <a href="terms.html">使用条款</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
